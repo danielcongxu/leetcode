@@ -23,5 +23,10 @@ vector<int> Solution::twoSum(vector<int>& nums, int target)
 
 		mapValToIdx.insert(pair<int, int>(nums[i], i));
 	}
-	return vector<int>();
+}
+
+void main()
+{
+	vector<int> a = Solution::twoSum(vector<int>{1, 2, 3}, 6);
+	int b = 1;
 }
